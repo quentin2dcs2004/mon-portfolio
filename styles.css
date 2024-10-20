@@ -1,0 +1,150 @@
+/* Réinitialisation des marges et des bordures */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles globaux */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #333; /* Fond noir */
+    color: #FFFFFF; /* Couleur du texte en blanc */
+}
+
+/* Styles du header */
+header {
+    background: #1a1a1a; /* Couleur sombre pour l'en-tête */
+    color: #fff; /* Couleur du texte de l'en-tête */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4d4d4d;
+}
+
+/* Styles de la navigation */
+nav {
+    background: #1a1a1a; /* Couleur pour la barre de navigation */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff; /* Couleur des liens */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Effet de survol pour les liens */
+}
+
+/* Styles des sections */
+section, .card-white {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #ffffff; /* Couleur de fond des sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles des titres des sections */
+h2 {
+    color: #1a1a1a; /* Couleur des titres de section */
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333; /* Couleur des sous-titres */
+    margin: 15px 0 5px;
+}
+
+/* Styles des listes */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    color: #000; /* Couleur du texte des éléments de liste en noir */
+}
+
+/* Styles des boutons */
+.btn-blue {
+    background-color: #343434; /* Couleur de fond */
+    color: white; /* Couleur du texte en blanc */
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Taille de la police réduite */
+    transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #4d54a3; /* Couleur de fond plus sombre au survol */
+    color: #fff; /* Assurer que le texte reste blanc au survol */
+}
+
+/* Styles du footer */
+footer {
+    background: #1a1a1a; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white !important; /* Force le texte du footer à être blanc */
+}
+
+/* Paragraphes spécifiques */
+p {
+    color: black; /* Change la couleur du texte en noir dans les sections avec fond blanc */
+    margin-top: 20px; /* Ajuste la marge supérieure pour déplacer le texte plus bas */
+}
+
+/* Styles des formulaires */
+form {
+    margin-top: 20px;
+    background: #fff; /* Couleur de fond blanche pour le formulaire */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour le formulaire */
+}
+
+/* Styles des champs de saisie */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: gray; /* Couleur du texte en gris */
+}
+
+/* Styles des boutons */
+form button {
+    padding: 10px 15px;
+    background: #1a1a1a; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Taille de police pour les boutons */
+}
+
+form button:hover {
+    background: #333; /* Couleur de fond du bouton au survol */
+}
